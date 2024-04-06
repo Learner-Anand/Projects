@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(187, 255, 195);
+}
+h1{
+    text-align: center;
+    font-size: 6vmin;
+    padding: 2vmin;
+    background-color: rgb(187, 255, 195);
+    margin-bottom: 10vmin;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+.box{
+    height: 50vmin;
+    width: 50vmin;
+}
+.p_name{
+    
+    text-align: center;
+    padding: 1vmin;
+    font-size: 3vmin;
+    border-radius: 3vmin;
+    background-color: antiquewhite;
+    margin-bottom: 3vmin;
+    border: 0.6vmin solid #ff8383;
+}
+img{
+    height: 46.5vmin;
+    width: 50vmin;
+    object-fit:cover;
+    border-radius: 3vmin;
+    border: 0.5vmin solid rgb(110, 89, 250);
+    cursor: pointer;
+}
